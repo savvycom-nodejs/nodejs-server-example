@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.4",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
